@@ -1,4 +1,8 @@
+/*Paulo's Custom CSS*/
 
+p {
+  margin:inherit;
+}
 
 .me--avatar {
   width: 128px;
@@ -9,7 +13,7 @@
 
 .main--container {
     padding: 5%;
-    background: -webkit-linear-gradient(-90deg, #cc0000, #ff4d4d 25.881%, #ffffff	50%);
+    background: -webkit-linear-gradient(-90deg, #cc0000, #ff4d4d 25.881%, #ffffff	70%);
     font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
@@ -18,6 +22,15 @@
     margin: 0px;
 }
 
-p {
-  margin:inherit;
+.top--menu {
+  min-height: 40px;
+  background: transparent;
+}
+
+.top--menu > a {
+  float: right;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
